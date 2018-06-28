@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnSubmitMStart">180dp</dimen>
+    <dimen name="iv1W">80dp</dimen>
+    <dimen name="iv1H">80dp</dimen>
+    <dimen name="mTop">10dp</dimen>
+    <dimen name="iv1Padding">5dp</dimen>
+    <dimen name="lLayoutMtop">8dp</dimen>
+    <dimen name="mLeft">10dp</dimen>
+    <dimen name="tv3Mtop">5dp</dimen>
+    <dimen name="txtSize">18sp</dimen>
+    <dimen name="txtNameW">185dp</dimen>
+    <dimen name="tvDesigTxt">185dp</dimen>
+    <dimen name="chechBoxH">30dp</dimen>
+    <dimen name="checkBoxMstart">10dp</dimen>
+    <dimen name="v1H">3dp</dimen>
+    <dimen name="mRight">10dp</dimen>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backColor"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivImg"
+                android:layout_width="@dimen/iv1W"
+                android:layout_height="@dimen/iv1H"
+                android:layout_marginTop="@dimen/mTop"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="@dimen/iv1Padding"
+                android:src="@drawable/image12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/lLayoutMtop"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="blocksDescendants"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mLeft"
+                        android:layout_marginTop="@dimen/tv3Mtop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:padding="@dimen/iv1Padding"
+                        android:text="@string/tv3Txt"
+                        android:textColor="@color/txtColor"
+                        android:textSize="@dimen/txtSize"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtxtName"
+                        android:layout_width="@dimen/txtNameW"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mLeft"
+                        android:layout_marginTop="@dimen/tv3Mtop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:padding="@dimen/iv1Padding"
+                        android:textColor="@color/txtColor"
+                        android:textSize="@dimen/txtSize" />
+
+                    <Button
+                        android:id="@+id/ibtn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mLeft"
+                        android:background="@drawable/i1" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="blocksDescendants"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mLeft"
+                        android:layout_marginTop="@dimen/tv3Mtop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:padding="@dimen/iv1Padding"
+                        android:text="@string/tvVersionTxt"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/txtColor"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDesig"
+                        android:layout_width="@dimen/tvDesigTxt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mLeft"
+                        android:layout_marginTop="@dimen/tv3Mtop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:padding="@dimen/iv1Padding"
+                        android:textColor="@color/txtColor"
+                        android:textSize="@dimen/txtSize" />
+
+                    <CheckBox
+                        android:id="@+id/cbcheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/chechBoxH"
+                        android:layout_marginStart="@dimen/checkBoxMstart"
+                        android:layout_marginTop="@dimen/tv3Mtop"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vw1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/v1H"
+            android:layout_marginTop="@dimen/mTop"
+            android:background="@color/v1BackColor"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

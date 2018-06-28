@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">listviewwithcheckboxes</string>
+    <string name="item1Txt">Share</string>
+    <string name="item2Txt">Delete</string>
+    <string name="btnSubmitTxt">Submit</string>
+    <string name="btnBackTxt">Back</string>
+    <string name="tv3Txt">Name:-</string>
+    <string name="tvVersionTxt">Version</string>
+</resources>
